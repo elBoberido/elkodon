@@ -19,7 +19,8 @@ members = [
 
     "examples",
 
-    "benchmarks/publish_subscribe"
+    "benchmarks/publish_subscribe",
+    "benchmarks/multi_process_publish_subscribe",
 ]
 
 [workspace.package]

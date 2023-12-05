@@ -1,0 +1,15 @@
+[package]
+name = "benchmark_multi_process_publish_subscribe"
+description = "Elkodon: multi-process benchmark for publish-subscribe messaging pattern"
+rust-version = { workspace = true }
+version = { workspace = true }
+repository = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+elkodon_bb_log = { workspace = true }
+elkodon = { workspace = true }
+elkodon_bb_posix = { workspace = true }
+elkodon_bb_container = { workspace = true }
+
+clap = { version = "4.4", features = ["derive"] }
